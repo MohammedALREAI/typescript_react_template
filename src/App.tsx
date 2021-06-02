@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import "./index.css";
+import { Simple } from "./Component/simple";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
                 <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
                     Learn React
                 </a>
+                <Simple title="the result is" value={5} />
             </header>
         </div>
     );

@@ -48,7 +48,7 @@ export const ButtonDiscover = styled("button")`
      display: flex;
      align-items: center;
      text-transform: uppercase;
-     box-shadow: 0 0 0 3em #ba9778 inset;
+     box-shadow: 0 0 0 3em #7a7571 inset;
      color: #ffffff;
      &:hover{
      animation: pulse 1s 2s 3 alternate backwards !important;
